@@ -1255,6 +1255,15 @@ General Styles - Owlcarousel
   transition: color 0.125s ease-in-out 0s;
 }
 
+/* Customisation NavBar */
+.navbar {
+  min-height: 70px !important;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px !important;
+}
+
 .navbar-custom .dropdown-menu {
   background: rgba(26, 26, 26, 0.9);
   border-radius: 0;
