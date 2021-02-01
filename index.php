@@ -219,8 +219,10 @@
                 <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
                 <li><a class="wow fadeInUp" href="#" data-filter=".management" data-wow-delay="0.2s">Management</a></li>
                 <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".communication" data-wow-delay="0.6s">Communication</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".informatique" data-wow-delay="0.6s">Informatique</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".hr" data-wow-delay="0.6s">Ressources humaines</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".entrepreneuriat" data-wow-delay="0.6s">Entrepreneuriat</a></li>
               </ul>
             </div>
           </div>
