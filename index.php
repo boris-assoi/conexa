@@ -66,7 +66,7 @@
             </li>
             <li><a href="index_mp_fullscreen_video_background.html">Blog</a></li>
             <li><a href="index_mp_fullscreen_video_background.html">FAQ</a></li>
-            <li><a class="btn btn-border-w btn-round" href="about">Connexion</a></li>
+            <li><a class="btn btn-w btn-round" href="portfolio_boxed_gutter_col_3.html">Connexion</a></li>
           </ul>
         </div>
       </div>
