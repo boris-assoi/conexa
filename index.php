@@ -176,7 +176,7 @@
           </div>
         </div>
       </section>
-      <section class="module bg-dark-60" data-background="https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?crop=entropy&cs=srgb&dl=pexels-pixabay-462030.jpg&fit=crop&fm=jpg&w=1920">
+      <!-- <section class="module bg-dark-60" data-background="https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?crop=entropy&cs=srgb&dl=pexels-pixabay-462030.jpg&fit=crop&fm=jpg&w=1920">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -188,7 +188,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="module pb-0" id="works">
         <div class="container">
           <div class="row">
