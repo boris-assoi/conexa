@@ -174,6 +174,11 @@
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-sm-2 col-sm-offset-5">
+              <div class="large-text align-center"><a class="section-scroll" href="#works"><i class="fa fa-angle-down"></i></a></div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- <section class="module bg-dark-60" data-background="https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?crop=entropy&cs=srgb&dl=pexels-pixabay-462030.jpg&fit=crop&fm=jpg&w=1920">
