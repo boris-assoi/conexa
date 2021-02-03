@@ -109,7 +109,7 @@
             <div class="col-sm-8 col-sm-offset-2">
               <h2 class="module-title font-alt">Bienvenue sur CONEXA</h2>
               <div class="module-subtitle font-serif large-text">
-                CONEXA est une entreprise qui œuvre dans le domaine du mentoring, de la formation et du conseil ayant pour principes et valeurs <b>l’excellence, la rigueur et la discipline, l’entraide et la solidarité, la transmission de connaissances et de bonnes valeurs et la recherche continuelle de réussite.</b></br>
+                CONEXA œuvre dans le domaine du mentoring, de la formation et du conseil ayant pour principes et valeurs <b>l’excellence, la rigueur et la discipline, l’entraide et la solidarité, la transmission de connaissances et de bonnes valeurs et la recherche continuelle de réussite.</b></br>
                 <a class="section-scroll btn btn-border-w btn-round" href="#about">En savoir plus</a>
               </div>
             </div>
