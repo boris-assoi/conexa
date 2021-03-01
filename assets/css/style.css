@@ -1317,7 +1317,7 @@ General Styles - Owlcarousel
 .navbar-custom .nav .open > a:hover,
 .navbar-custom .dropdown-menu > li > a:focus,
 .navbar-custom .dropdown-menu > li > a:hover {
-  background: none;
+  background: rgba(255, 255, 255, 0.5);
   color: #D69016;
 }
 
