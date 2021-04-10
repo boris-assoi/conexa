@@ -132,43 +132,43 @@
 					<div class="row multi-columns-row">
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="features-item">
-								<div class="features-icon"><span class="icon-lightbulb"></span></div>
-								<h3 class="features-title font-alt">Ideas and concepts</h3>
+								<div class="features-icon"><span class="icon-strategy"></span></div>
+								<h3 class="features-title font-alt">Management</h3>
 								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="features-item">
-								<div class="features-icon"><span class="icon-bike"></span></div>
-								<h3 class="features-title font-alt">Optimised for speed</h3>
+								<div class="features-icon"><span class="icon-bargraph"></span></div>
+								<h3 class="features-title font-alt">Finances</h3>
 								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="features-item">
-								<div class="features-icon"><span class="icon-tools"></span></div>
-								<h3 class="features-title font-alt">Designs &amp; interfaces</h3>
+								<div class="features-icon"><span class="icon-trophy"></span></div>
+								<h3 class="features-title font-alt">Developpement personnel</h3>
 								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="features-item">
-								<div class="features-icon"><span class="icon-gears"></span></div>
-								<h3 class="features-title font-alt">Highly customizable</h3>
-								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="features-item">
-								<div class="features-icon"><span class="icon-tools-2"></span></div>
-								<h3 class="features-title font-alt">Coding &amp; development</h3>
+								<div class="features-icon"><span class="icon-megaphone"></span></div>
+								<h3 class="features-title font-alt">Communication</h3>
 								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="features-item">
 								<div class="features-icon"><span class="icon-genius"></span></div>
-								<h3 class="features-title font-alt">Features &amp; plugins</h3>
+								<h3 class="features-title font-alt">Art</h3>
+								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span class="icon-presentation"></span></div>
+								<h3 class="features-title font-alt">Entrepreneuriat</h3>
 								<p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
 							</div>
 						</div>
@@ -563,7 +563,7 @@
 
 	<div id="menteeFormModal" class="modal fade">
 		<div class="modal-dialog modal-lg">
-			<form method="POST" id="payment_form" enctype="multipart/form-data" action="../actions/paymentAction.php">
+			<form method="POST" id="payment_form" enctype="multipart/form-data" action="">
 				<div class="modal-content">
 					<div class="modal-header">
 						<h6 class="modal-title text-uppercase">Rejoignez-nous</h6>
@@ -591,41 +591,88 @@
 									<input type="text" class="form-control" id="firstname" name="firstname" placeholder="Vos prénoms">
 								</div>
 							</div>
+							<div class="form-group form-field-inline">
+								<label for="birth_date" class="info-title">Age</label>
+								<div class="input-group">
+									<input type="number" class="form-control" id="birth_date" name="birth_date">
+								</div>
+							</div>
 						</div>
 						<div class="flex-container">
 							<div class="form-group form-field-inline">
 								<label for="email" class="info-title">Email</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Votre addresse email">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email">
 							</div>
 							<div class="form-group form-field-inline">
 								<label for="phone" class="info-title">Téléphone</label>
-								<select class="form-control" id="phone" name="phone">
-									<option>Espèces</option>
+								<input type="phone" class="form-control" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+							</div>
+							<div class="form-group form-field-inline">
+								<label for="address" class="info-title">Ville</label>
+								<input type="text" class="form-control" id="address" name="address" placeholder="Votre adresse">
+							</div>
+						</div>
+						<div class="flex-container">
+							<div class="form-group form-field-inline">
+								<label for="grade" class="info-title">Votre niveau d'étude</label>
+								<select class="form-control" id="grade" name="grade">
+									<option>Doctorat</option>
+									<option>Master, DEA, DESS, diplôme d'ingénieur</option>
+									<option>Maîtrise</option>
+									<option>Licence, Licence LMD, licence professionnelle</option>
+									<option>DEUG, BTS, DUT, DEUST</option>
+									<option>Baccalauréat</option>
+									<option>CAP, BEP</option>
+									<option>Terminale</option>
+									<option>Première</option>
+									<option>Seconde</option>
+									<option>3ème</option>
+									<option>4ème</option>
+									<option>5ème</option>
+									<option>6ème</option>
+								</select>
+							</div>
+							<div class="form-group form-field-inline">
+								<label for="school" class="info-title">Dans quelle école avez vous obtenu votre dernier diplôme ?</label>
+								<input type="text" class="form-control" id="school" name="school" placeholder="Votre adresse">
+							</div>
+							<div class="form-group form-field-inline">
+								<label for="study" class="info-title">Votre domaine d'étude</label>
+								<select class="form-control" id="study" name="study">
+									<optgroup label="Digital">
+										<option>E-commerce</option>
+										<option>Création de site web</option>
+										<option>Production vidéo</option>
+										<option>Marketing digital</option>
+									</optgroup>
 								</select>
 							</div>
 						</div>
 						<div class="flex-container">
 							<div class="form-group form-field-inline">
-								<label for="payment_file">Pièce justificative <div class="text-muted"><small>(Format pris en charge : PDF | Microsoft Word | JPEG | PNG)</small></cite></label>
-								<input type="file" class="form-control" id="payment_file" name="payment_file" required>
+								<div style="display: block;">
+									<label for="motivation" class="info-title">Pourquoi avoir choisi cette voie ?</label>
+									<input type="checkbox" name="" id="" value="C’était la seule option qui s’offrait à moi au vu de mes capacités et mes ressources">
+								</div>
 							</div>
 						</div>
-						<div class="flex-container">
-							<div class="form-group">
-								<label for="payment_remarks" class="info-title">Observations</label>
-								<textarea class="form-control" id="payment_remarks" name="payment_remarks"></textarea>
-							</div>
+						<div class="form-group form-field-inline">
+							<label for="phone" class="info-title">Téléphone</label>
+							<input type="phone" class="form-control" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+						</div>
+						<div class="form-group form-field-inline">
+							<label for="address" class="info-title">Ville</label>
+							<input type="text" class="form-control" id="address" name="address" placeholder="Votre adresse">
 						</div>
 					</div>
-					<div class="modal-footer">
-						<input type="hidden" name="payment_id" id="payment_id ">
-						<input type="hidden" name="operation" id="operation" value="add">
-						<input type="submit" name="action" id="action" class="btn btn-success" value="Ajouter">
-						<button type="button" id="cancel" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" name="action" id="action" class="btn btn-info" value="S'inscrire">
+					<button type="button" id="cancel" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
 				</div>
 			</form>
 		</div>
+	</div>
 	</div>
 </body>
 
